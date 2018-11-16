@@ -11,3 +11,7 @@ Where path1 is the path1 to '2018_I10gem.txt' file and path2 is the path to 'Q1-
 For instance, if the '2018_I10gem.txt' file is in the same folder as the python code, the path1 is : './2018_I10gem.txt' and path2 is './Q1-Q3-ICD-9-CM.txt' and you need to run the following command:
 
 ```python newicd.py ./2018_I10gem.txt ./Q1-Q3-ICD-9-CM.txt```
+
+The code writes the output in a text file named: "Output.txt", where the first column is the ICD10 code, the second column is the ICD9 code, and the third column shows the highest frequecy among the corresponding codes of a single icd10 code, in the california state icd9 codes.
+
+
